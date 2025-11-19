@@ -1,0 +1,415 @@
+.navd{
+   /* background-color: black;*/
+   background-color: #6e4f3d;
+   
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 700;
+    /*color: crimson !important;*/
+    text-decoration: none!important;
+    list-style: none;
+    margin-left:20px!important;
+}
+.navbar-brand span{
+  color:white;
+  font-size: 30px;
+    font-weight: 700;
+    /*color: crimson !important;*/
+    text-decoration: none!important;
+    list-style: none;
+   /* margin-left:20px!important;*/
+}
+
+ul {
+    float: right;
+    margin-right: 15px;
+}
+li a{
+    margin-left: 10px;
+    margin-right: 10px;
+    float: right;
+    font-weight: 500;
+    font-size: 20px;
+}
+  
+a:hover {
+  text-decoration: underline;
+  color: crimson;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  text-decoration: underline;
+  color: crimson !important;
+}
+
+.first-section{
+  height:600px;
+  width: 100%;
+  /*background-color: black!important;*/
+  /*border: 2px solid red;*/
+  
+}
+body{
+  background-color: #dac292!important;
+}
+/*
+.myimg{
+  height:40px!important;
+  width: 20px;
+  float: right;
+  margin-right: 15%;
+  margin-top: 0%;
+}*/
+.myimg {
+  float: right;
+  margin-right: 15%;
+  margin-top: 0!important;
+  top: -80px; 
+  width: 400px; 
+  position: relative;
+}
+
+.myimg img {
+  width: 400px;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 50%; 
+  margin-top: 0!important;
+  border: 2px solid #6e4f3d;;
+}
+
+
+
+.fade-in {
+  opacity: 0;
+  animation: fadeInAnimation 2s forwards; 
+}
+
+/* Apply the delay to make the span show after p */
+.fade-in:nth-child(2) {
+  animation-delay: 2s; 
+}
+.fade-in:nth-child(3) {
+  animation-delay: 3s; /* Delay for the second element */
+}
+.fade-in:nth-child(4) {
+  animation-delay: 4s; /* Delay for the second element */
+}
+
+/* Define the animation */
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.greetings{
+  margin-left: 12%;
+  margin-top: 11%;
+  /*font-size: 30px;*/
+  
+}
+.greetings h1{
+  font-size: 60px;
+}
+.greetings p{
+  font-size: 15px;
+}
+.greetings h5{
+  font-size: 20px;
+}
+.greetings span{
+  color: #6e4f3d;
+  font-weight: 800;
+}
+pre{
+  color: white;
+}
+@media (max-width: 768px) {
+  .myimg {
+    float: none;
+    margin: 0 auto;
+    display: block;
+  }
+  .greetings {
+    margin-left: 5%;
+    margin-top: 5%;
+    text-align: center;
+  }
+}
+.social-media a{
+  font-size: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #6e4f3d;
+  /*margin-top: 50px;*/
+  border: .2rem crimson;
+  border-radius: 50%;
+}
+.social-media{
+   margin-top: 50px;
+}
+.btn{
+  display: inline-block;
+  padding: 1rem 2.8rem;
+  background-color: #b9936c!important;
+  color: black;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  margin-top: 15px;
+  text-decoration: none;
+  border-color:white!important;
+  
+
+}
+.btn:hover{
+  color: #b9936c;
+ transition: transform 0.3s ease, box-shadow 0.3s ease;
+ transform: scale(1.05)
+
+}
+.btn,
+.btn:hover,
+.btn:focus,
+.btn:active {
+  text-decoration: none;
+}
+#about-me{
+  margin-top: 85px;
+  color: #6e4f3d;
+  display: flex;
+ /* border:2px solid red;*/
+  height: 700px;
+}
+#about-me img{
+  height: 500px;
+  width: 300px;
+}
+#about-me h2{
+  font-weight: 700;
+  color: #6e4f3d;
+  /*margin-left: 50%;*/
+  
+  
+}
+.desc-img{
+  margin-left: 200px;
+  
+}
+.desc-img img{
+  margin-top: 30px;
+  border-radius: 10px;
+  border: 2px solid white;
+ 
+}
+/*
+#about-me{
+  
+}*/
+.about-me-description {
+  margin-left: 8%;
+  /*margin-top: 30px;*/
+}
+/*
+.about-me-description h2{
+  margin-left: 30%;
+  font-weight: 500;
+}
+*/
+.about-me-description h4{
+ 
+  font-weight: 600;
+  font-size: 20px;
+}
+.details{
+  margin-top: 40px;
+}
+.details span{
+   font-size:18px ;
+   margin-left: 10px;
+   color: #6e4f3d;
+  
+}
+
+.skills{
+  margin-top: 60px;
+}
+
+    .skill-label {
+    margin-bottom: 2px; /* Tight space between label and progress bar */
+  }
+  .progress {
+    margin-bottom: 16px; /* Normal space between skill blocks */
+  }
+  
+  #project_section {
+  margin-top: 85px;
+  height: 700px;
+  width: 100%;
+  /*display: flex;
+  gap: 20px;  This adds space between .ps divs 
+  justify-content: center; /* Optional: center cards horizontally 
+  border: 2px solid red;*/
+  
+}
+
+
+.ps {
+  border: 2px solid #6e4f3d;
+  padding: 10px;
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  background-color: #fff; 
+  width: 310px; 
+  text-align: center;
+  height: 450px;
+  margin-left: 10px;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+   margin-top: 3%;
+}
+.ps p {
+  transition: color 0.3s ease;
+}
+
+/* Hover effect for .ps */
+.ps:hover {
+  background-color: #fbeee6; 
+  border-color: #6e4f3d;     
+  transform: scale(1.05); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adds a shadow effect */
+  border-color: #6e4f3d; 
+}
+
+/* Zoom image on hover */
+.ps:hover img {
+  transform: scale(1.05); /* Slight zoom */
+}
+
+/* Change text color on hover */
+.ps:hover p {
+  color: #6e4f3d;
+}
+
+
+#project_section h2 {
+  padding-left: 45%;
+  font-weight: 700;
+  padding-top: 20px;
+  color:#6e4f3d;
+  font-size: 35px;
+  opacity: 0;
+  animation: fadeInAnimation 3s forwards; 
+}
+
+#project-section .ps{
+  margin-left: 100;
+
+}
+
+.ps-container{
+display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+
+
+  /* ===== CONTACT SECTION ===== */
+#contact {
+  margin-top: 100px;
+  padding: 60px 0;
+  background-color: #dac292;
+  text-align: center;
+}
+
+#contact h2 {
+  font-weight: 700;
+  color: #6e4f3d;
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+
+/* Container layout */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+/* Individual contact boxes */
+.contact-box {
+  background-color: #fff;
+  border: 2px solid #6e4f3d;
+  border-radius: 10px;
+  padding: 30px 20px;
+  width: 260px;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-box:hover {
+  background-color: #fbeee6;
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Icons */
+.contact-box i {
+  font-size: 40px;
+  color: #6e4f3d;
+  margin-bottom: 15px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.contact-box:hover i {
+  color: crimson;
+  transform: scale(1.1);
+}
+
+/* Headings and text */
+.contact-box h4 {
+  font-size: 20px;
+  color: #6e4f3d;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.contact-box p,
+.contact-box a {
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-box a:hover {
+  color: crimson;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-box {
+    width: 80%;
+  }
+}
+
+  
+
+
